@@ -1,6 +1,6 @@
-## xPore 
+## xPore: An AI-Powered App for Bioinformaticians 
 
-AI ที่ตรวจหา RNA ภายใน Gnome
+In this module เราจะได้ Explore หัวข้อตามนี้ครับ
 
 * Understanding domain knowledge
 * Research questioning & requirement gathering
@@ -9,6 +9,8 @@ AI ที่ตรวจหา RNA ภายใน Gnome
 * Speed-up ML experiments
 * Evaluation เช่น Generalized หรือ
 * Deployment & documentation
+
+---
 
 
 ## 1. Problem Statement (พัฒนาเพื่อแก้ปัญหาอะไร)
