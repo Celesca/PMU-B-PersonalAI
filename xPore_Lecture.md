@@ -214,6 +214,10 @@ Why config files?
 * ที่เราใช้บ่อยคือ YML, JSON, TOML
 * สามารถคอนฟิคได้ว่า Hyperparameters เป็นเท่าไหร่บ้าง
 
+Python Packaging -> เอาไว้เรียกใช้งาน
+Parallelization Multiprocessing -> multiprocessing หรือการอ่าน data.index ผ่าน data.json ก็จะอ่านเฉพาะตรงนั้นไฟล์ เราสามารถ Access ไฟล์ที่ใหญ่หลาย GB ได้แปปเดียว
+Bioinformatics -> นิยมทำ Indexing
+
 ## 4. Evaluation - 
 
 ## 5. Visualization and Presentation
