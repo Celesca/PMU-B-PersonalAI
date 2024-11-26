@@ -263,3 +263,16 @@ Preprocess - 5-6 เดือน แต่ถ้า Evaluation ทำเป็�
 
 
 ## 6. Future Work
+
+![image](https://github.com/user-attachments/assets/70faed44-faa8-4fff-a8b3-f349e40a0129)
+
+
+6.1 Domain-Oriented
+
+- เราสามารถย้ายไปใช้ p-distribution mixture model เพื่อทดลองดูก็ได้
+- Nanopolish ที่มันตรงกับ Signal ในอนาคต เราอยากทำโมเดลที่ไม่ต้อง Segment ตัว Pattern ไฟฟ้า สร้างใหม่เป็น End-to-end เลย Model เดียว
+
+6.2 Method-Oriented
+- Deep autoencoder + GMM
+- CNN + GMM
+- Other models + GMM
