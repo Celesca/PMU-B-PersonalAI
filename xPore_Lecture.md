@@ -220,6 +220,24 @@ Bioinformatics -> นิยมทำ Indexing
 
 ## 4. Evaluation - 
 
+4.1 Experiment Setup
+
+![image](https://github.com/user-attachments/assets/2da586b3-e51b-4537-8bac-bdf6b64a5451)
+
+HEK293T Knockout -> มันมี Wild type, Knockout ยีนใน M6A มันจะถูกเอาออกหมดเลย ตามกระบวนการตามปฏิกิริยาเคมี
+ตรงกลางต้องเป็น AC เท่านั้น ถึงจะนับว่า M6A
+
+การวิเคราะห์แค่ Ground Truth จริงๆ มันถูกต้องไม่หมด 100% ฉะนั้น False Positives not be wrong มันน่าจะ Modify ตรงนั้นนะ ก็อาจจะไม่ได้ผิด แต่เป็นสมมติฐานที่ต้องไปพิสูจน์ต่อ
+ว่าสายนี้จะเป็นไปได้จริง
+
+![image](https://github.com/user-attachments/assets/4a314aed-bd84-4f02-8c16-d38e1c47c760)
+
+Motis หลักๆเลยที่เป็น M6A ตามกราฟของ Motis Validate ว่ามันเป็นจริง ตรงกับ DARCH กับความรู้เก่า
+และอีกอันนึงถ้าเราแบ่ง RNA 3' UTR มันจะเกิดตรงรอยต่อเยอะ เราพบว่าทุก ๆ ตำแหน่งที่ส่วนใหญ่มีพบมาก ทำให้ xPore มันคอนเฟิร์มความรู้เก่า
+
+
+
+
 ## 5. Visualization and Presentation
 
 โฆษณา ให้เขาเข้าใจว่าซอฟต์แวร์เราเป็นยังไง เพื่อนำไปใช้ในแต่ละแพลตฟอร์ม
