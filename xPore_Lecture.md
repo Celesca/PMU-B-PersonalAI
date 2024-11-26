@@ -247,12 +247,17 @@ Motis หลักๆเลยที่เป็น M6A ตามกราฟข
 
 Preprocess - 5-6 เดือน แต่ถ้า Evaluation ทำเป็นปี
 
+4.3 Keys Takeaway
 
+![image](https://github.com/user-attachments/assets/e7fc7dcc-d355-446f-a878-2bcc0fd501d6)
 
-
-
-## 5. Visualization and Presentation
-
+## 5. Visualization and Presentation (Deploy / Present Paper)
 โฆษณา ให้เขาเข้าใจว่าซอฟต์แวร์เราเป็นยังไง เพื่อนำไปใช้ในแต่ละแพลตฟอร์ม
+
+![image](https://github.com/user-attachments/assets/9288dcd3-8820-4220-8e0b-07c6040213dc)
+
+เน้นเข้าใจง่าย Python ไม่สามารถจัดการได้โดยหมด เพื่อจะเล่าเรื่องราวเดียวกัน
+
+
 
 ## 6. Future Work
