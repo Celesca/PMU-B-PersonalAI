@@ -101,6 +101,16 @@ Nanopolish มันจะเอาสัญญาณไฟฟ้ามาตร
 
 ## 3. Bayesian (Multi-Sample) - Gaussian Mixture Modeling
 
+![image](https://github.com/user-attachments/assets/454853a1-e90e-40bf-886d-cdc1b1b6ebf6)
+
+เราใช้แบบ Bayesian GMM แล้วก็ให้มันลองรับ Multi-sample ด้วย 
+
+3.1 Guassian คืออะไร แกน y คือ Probability แกน x เป็นสัญญาณไฟฟ้า ยิ่งกว้างมาก มันก็จะมีการกระจายตัวเยอะ ถ้าหากเรากระจายตาม Standard Deviation (Sigma)
+สมมติเรามี Gaussian Distribution ขึ้นมา เราก็จะเห็นว่า Data จะเกาะกลุ่มที่ค่า Mean เราก็จะเขียน สมการ Probability(x) = N(x | มิว, Sigma)
+ถ้าเราให้ มิวเป็น 0 Sigma เป็น 1 เราก็จะรู้ Probability ของจุดๆนั้นได้ทันที แล้วเราก็จะ Random Sample จุดแต่ละจุดจะได้ตาม Distribution / Probability ก็คือ สุ่ม นานๆทีจะเกิด
+
+
+
 ## 4. Evaluation - 
 
 ## 5. Visualization and Presentation
