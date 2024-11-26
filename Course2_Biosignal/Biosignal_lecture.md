@@ -73,6 +73,16 @@ Problem ในปัจจุบัน เขาอยากให้ทดส�
 
 ## 3. Model ( DeepSleepNet 2017, TinySleepNet 2020 )
 
+30s Single-Channel EEG จากนั้นผ่าน 1D CNN
+* Representation Learning
+* Sequence Residual Learning
+
+ส่วนแรกประกอบไปด้วย CNN-Small มี Filter ขนาดเล็ก / CNN-Large มี Filter ขนาดใหญ่
+แรงบันดาลการวิเคราะห์ Waveless Transform / Fast Fourier Transform
+
+![image](https://github.com/user-attachments/assets/8b93b56b-1cb7-4b12-b77d-74b7d8f19b4d)
+
+
 
 
 
