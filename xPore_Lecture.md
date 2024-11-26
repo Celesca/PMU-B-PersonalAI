@@ -140,8 +140,16 @@ Assumption มันก่อนว่าเราใช้โมเดลอะ
 เริ่มต้นเราจะ Random Mean, Sigma กับการกระจายข้อมูลเป็นวงกลมก่อน ตอนแรกเรายังไม่รู้ว่ามันควรจะเป็นจุดไหน เราเลย Assign ว่าสีน้ำเงิน มันน่าจะมาจาก Probability นี้
 แล้ว Iterative algorithm ทำการอัพเดทกลายเป็นวงกลมใหม่ จนสุดท้ายจะเจอ Mean, Sigma ที่ดีที่สุด ที่มัน Fits กับ Data ของเรามากที่สุด
 
+3.4 ภาพรวมของ GMM
 
+GMM as a Density Estimator เป็น ML ที่เอาไว้ดู Distribution มีกี่อัน แล้วมีค่า Mean, Sigma เท่าไหร่ มันเอาไว้ประเมิน Density โดยมีการ Assumption ว่าข้อมูลมาจาก Normal Distribution
+ซึ่งมันเรียกเป็น Generative AI เพราะว่าเรามี Assumption ว่าดาต้ามันมาจากไหน
 
+Image Classification -> Discriminative มันไม่สามารถสร้างข้อมูลขึ้นมาได้
+
+  1. มันสามารถสร้างข้อมูลได้ Generative AI -> มันสามารถ Random ว่าการสร้าง Data เพราะว่า Point มันมี Sample, Sampling , พอเรารู้ว่ามี Assumption
+  2. เราก็สามารถทำ Clustering มันไม่มีค่า Mean, Representation ได้ แต่มันไม่สามารถ Generate ได้
+  3. ยังมีคนทำ One-Class Classification กับการทำ Boundary
 
 ## 4. Evaluation - 
 
