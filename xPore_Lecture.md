@@ -109,6 +109,29 @@ Nanopolish มันจะเอาสัญญาณไฟฟ้ามาตร
 สมมติเรามี Gaussian Distribution ขึ้นมา เราก็จะเห็นว่า Data จะเกาะกลุ่มที่ค่า Mean เราก็จะเขียน สมการ Probability(x) = N(x | มิว, Sigma)
 ถ้าเราให้ มิวเป็น 0 Sigma เป็น 1 เราก็จะรู้ Probability ของจุดๆนั้นได้ทันที แล้วเราก็จะ Random Sample จุดแต่ละจุดจะได้ตาม Distribution / Probability ก็คือ สุ่ม นานๆทีจะเกิด
 
+ข้อมูลไม่กระจายตัว Sigma σ จะแคบ ดูว่าโมเลกุลมันมีชนิดเท่าไหร่ Mean มีค่าเท่าไหน
+
+![image](https://github.com/user-attachments/assets/532f6e81-d9c7-45a9-a7bc-4d0a11b2eaf4)
+
+Mixture Model
+ขั้นตอนการ Generate nanoPore มัน Assume ว่าสอง Distribution รวมกัน โดยที่สมการเปลี่ยนไปเป็นเพิ่ม k=1 ถึง K และ Pi K
+Probability มันเป็นเท่าไหร่แล้วจะถูกเลือกเป็นสีส้มหรือสีน้ำเงิน เช่น Pi สีน้ำเงิน 90% Pi สีส้ม 10% แต่ถ้า Pi สีส้มเยอะกว่าก็จะอยู่สีส้ม
+
+3.2 What is Gaussian Mixture Model (GMM) ?
+
+![image](https://github.com/user-attachments/assets/340dc3e0-01db-4273-bd8f-e34dbc7e090c)
+
+
+สัญญาณของไฟฟ้า Data ที่เราสร้างมาตามสมมติฐาน เช่น Data มี 3 Components และการกระจายตัวมากน้อยเป็น Normal Distribution 3 ชุด
+เราก็ทำไป 5000 ครั้ง เช่นเราจะเอามาจากสีเขียว สีแดง สีน้ำเงิน มันก็จะได้รูปแบบนี้ โดยการ Random Components ว่าค่า Pi จะเป็นเท่าไหร่
+
+ความเป็นจริง Machine Learning เราจะเห็น Data ก้อนเดียว แต่ไม่รู้มัน Generate ยังไง เราก็ Assume ว่าข้อมูลมาจาก Gaussian Mixture Model
+การเห็นดาต้าเป็นสีชมพู แต่เราไม่รู้ Zeta ว่ามันไม่รู้มีกี่ Components, Mean , Sigma ของแต่ละอัน แต่ละ Component มีค่า Pi เท่าไหร่ แต่เรา
+Assumption มันก่อนว่าเราใช้โมเดลอะไร ดาต้ามันถูกสร้างออกมาอย่างนั้น เราก็จะ Infer ว่า Pi, มิว, Sigma มีค่าเท่าไหร่ ก็ไป Learn
+
+บางครั้งจุดมันเชื่อมกันเราก็แค่ให้มันเป็น Probability ไปก่อน
+
+
 
 
 ## 4. Evaluation - 
