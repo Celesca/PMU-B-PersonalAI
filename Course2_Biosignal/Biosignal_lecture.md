@@ -57,8 +57,21 @@ N3 - Deep sleep หลับลึก
 
 ![image](https://github.com/user-attachments/assets/516e53a9-4342-4952-a308-de3936ccae8e)
 
+การที่เรารู้แล้วว่า มี Stage ไหนบ้าง แล้วเราก็ไปคิดเลขและ Sleep Efficiency แทนที่จะต้องมานั่งดูเอง
 
+![image](https://github.com/user-attachments/assets/7301073c-79fa-4ee1-8376-47ed30185b9e)
 
+Problem ในปัจจุบัน เขาอยากให้ทดสอบได้ในที่บ้านเลย โดยใช้คลื่น EEG (จากคลื่นสมอง) แล้วถ้าใช้คลื่นสมองเราจะใช้ Deep Learning Model เพื่อให้คะแนนการนอนได้หรือไม่
+ฉะนั้นเราจะได้ Wearable Devices ก็จะมีแบบใส่หู หรือผ้าคาดหัวที่มีอิเล็กโทรด
+
+![image](https://github.com/user-attachments/assets/695758bf-124e-46cf-a5d5-967bc4796ef8)
+
+* Public Sleep Dataset
+
+เราจะใช้สัญญาณ EEG อย่างเดียว แล้วก็ทำ Label 5 Stage พร้อมทั้ง MOVEMENT, UNKNOWN
+![image](https://github.com/user-attachments/assets/52720584-b40a-4d73-b3e3-3a78de8c6134)
+
+## 3. Model ( DeepSleepNet 2017, TinySleepNet 2020 )
 
 
 
