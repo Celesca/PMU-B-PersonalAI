@@ -8,6 +8,8 @@ Welcome to my learning journey in E-SAN Coding Thailand Season 2 Level 2.
 
 The content in this repository is about the Personal AI track. By including 7 courses in PowerClass!
 
+Sorry for my bad English. I just want to spread the knowledge to people around the world from my learning pathway! 💌
+
 * The "Note" is the lecture that I take note of each courses.
 * The "Document" is the link to the learning presentation and materials of each courses.
 * The "Certificate" is the link to the PowerClass Certification of mine.
