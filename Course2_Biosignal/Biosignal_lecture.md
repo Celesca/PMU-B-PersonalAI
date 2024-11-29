@@ -139,6 +139,44 @@ TinylSleepNet ถูกบีบเล็กลง สอนก็จะมี P
 
 ![image](https://github.com/user-attachments/assets/17949a7a-4b71-4410-81f4-5ca29f72e84f)
 
+4. Model Evaluation
+
+![image](https://github.com/user-attachments/assets/201e2006-cec9-4f4a-9947-5dc406122174)
+
+การแบ่งข้อมูลใช้ K-Fold Cross-Validation (การแบ่งข้อมูลจะไม่มีคนไข้คนเดียวกันอยู่ใน Train ซ้ำกัน)
+
+Accuracy, MF1, Cohen's Kappa -> วัดผลโดยรวมของ Stage ทั้ง 5
+
+ของแต่ละ Stage ให้ใช้ ACC, Precision Recall, และก็ Hypnogram
+
+* 5-Fold Cross Validation
+
+![image](https://github.com/user-attachments/assets/b363af59-15a3-4f53-a669-e0111bc93852)
+
+Test dataset อาจจะเอาข้อมูลอื่นที่ไม่ใช่ Training set มาลองทดสอบ
+
+* Confusion Matrix
+
+![image](https://github.com/user-attachments/assets/4c8f6b0a-6924-4822-a22c-b3a1acd74981)
+
+สำหรับ Task เราสามารถทำนายจากการที่ N2-Stage กี่ชั่วโมง แล้วโมเดลทำนายได้กี่ชั่วโมง
+
+![image](https://github.com/user-attachments/assets/339d0bef-b59f-442e-ab45-0b21b36ce1fb)
+
+* Hypnogram
+
+![image](https://github.com/user-attachments/assets/4f5c63da-e925-4e93-92e7-ca6c8169ceaf)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
