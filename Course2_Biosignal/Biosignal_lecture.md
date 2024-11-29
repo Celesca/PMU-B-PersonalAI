@@ -176,6 +176,32 @@ https://github.com/akaraspt/pmub-learning-biosignals/tree/main
 
 สามารถไปดูโค้ดได้ใน Folder เดียวกันกับ Note นี้นะครับ
 
+Exercise ที่ผมทำคือ Model TinySleepNet :
+
+
+``` python
+def tinysleepnet():
+    model = nn.Sequential(
+        nn.Conv1d(in_channels=1, out_channels=128, kernel_size=50, stride=25, bias=False),
+        nn.BatchNorm1d(num_features=128, eps=0.001, momentum=0.01),
+        nn.MaxPool1d(kernel_size=8, stride=8),
+        nn.Dropout(p=0.5),
+        nn.Conv1d(in_channels=128, out_channels=128, kernel_size=8, stride=1, bias=False),
+        nn.BatchNorm1d(num_features=128, eps=0.001, momentum=0.01),
+        nn.ReLU(inplace=True),
+        nn.Conv1d(in_channels=128, out_channels=128, kernel_size=8, stride=1, bias=False),
+        nn.BatchNorm1d(num_features=128, eps=0.001, momentum=0.01),
+        nn.ReLU(inplace=True),
+        nn.Conv1d(in_channels=128, out_channels=128, kernel_size=8, stride=1, bias=False),
+        nn.BatchNorm1d(num_features=128, eps=0.001, momentum=0.01),
+        nn.ReLU(inplace=True),
+        nn.MaxPool1d(kernel_size=4, stride=4),
+        nn.Flatten(),
+    )
+
+    return model
+```
+
 
 
 
