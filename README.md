@@ -1,13 +1,8 @@
 # PMU-B-PersonalAI
 
-<div style="display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            width: 100%;"
-            
-  <img src="https://github.com/user-attachments/assets/124e33e4-f122-41f8-9382-5ea883f201e4" 
-       style="width: 100px; height: 100px;" />
-</div>
+<p align="center" width="100%">
+    <img width="100" src="https://github.com/user-attachments/assets/124e33e4-f122-41f8-9382-5ea883f201e4"> 
+</p>
 
 Greetings,
 My name is Sawit Koseeyaumporn ⛹️‍♂️ . You can call me "Folk"!
