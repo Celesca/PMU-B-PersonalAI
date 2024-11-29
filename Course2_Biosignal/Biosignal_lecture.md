@@ -167,6 +167,10 @@ Test dataset อาจจะเอาข้อมูลอื่นที่ไ�
 
 ![image](https://github.com/user-attachments/assets/4f5c63da-e925-4e93-92e7-ca6c8169ceaf)
 
+5. Workshop Exercise
+
+![image](https://github.com/user-attachments/assets/2ab7a858-f8f8-44f0-85e6-f88a20e24a78)
+
 
 
 
