@@ -1,10 +1,15 @@
 # PMU-B-PersonalAI
 
+<div style="display:flex; 
+            justify-content: center; align-items:center; ">
+  <img src="https://github.com/user-attachments/assets/124e33e4-f122-41f8-9382-5ea883f201e4" style="width: 100px; height: 100px;" />
+</div>
+
 Greetings,
 My name is Sawit Koseeyaumporn ⛹️‍♂️ . You can call me "Folk"!
 
 
-Welcome to my learning journey in E-SAN Coding Thailand Season 2 Level 2.
+Welcome to my learning journey in E-SAN Coding Thailand Season 2 Level 2. (ETPCA SS2)
 
 The content in this repository is about the Personal AI track. By including 7 courses in PowerClass!
 
