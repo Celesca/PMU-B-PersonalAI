@@ -203,6 +203,16 @@ def tinysleepnet():
 ```
 
 
+6. Future Work
+
+![image](https://github.com/user-attachments/assets/b7f2d480-4198-4259-ad57-84309db59493)
+
+* ใช้ DL กับ Supervised เท่านั้น เพราะต้อง
+* บางทีเอารูปภาพ Spectrogram แล้วเอา CNN ประมวลผลได้เลย แทนที่เราจะใช้ Deep Learning ตรงๆ มันทำให้การ preprocessing ข้อมูลเพิ่ม จะทำให้ข้อมูลหายไป
+* PyTorch ติดตั้งบนโทรศัพท์มือถือได้ เราก็จะใช้ Transfer Learning โมเดลที่เราเทรนด์แล้วส่งต่อได้
+
+![image](https://github.com/user-attachments/assets/bc438b32-76e3-4583-946f-28415112de5c)
+
 
 
 
