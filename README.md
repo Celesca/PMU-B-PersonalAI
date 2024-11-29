@@ -34,7 +34,9 @@ The content in this repository is about the Personal AI track. By including 7 co
 
   The course is about the Sleep Stage Analyze by using the Biosignal from our body such as EEG (Brain Wave) and moreover. After we get the Time Series data we use Multi-classification Deep Learning model to detect the pattern of the Sleep stage for each period (30 seconds) in this course we have "DeepSleepNet" and "TinySleepNet" which is the mixture of CNN and RNN architecture in it.
 
-3. Merry : Code Clone Detection Model
+3. Merry : Code Clone Detection Model 👽
 
   The course is about the Code clone detection for professor in university to detect the student who copied code from their friends. We use Synthetic Code Metric from `Code2Vec` to have the similarity vector and then use the cosine similarity to calculate the diff of code. While, we use Semantic Code Metric from `ANTLR` to tokenize and get the context such as from variables and line of code.
   Finally, we combine the Synthetic and Semantic Code Metric and use Machine Learning Model such as Decision Tree, Random Forest, SVM, SVM SMO to classify the type of code clone.
+
+4. 
