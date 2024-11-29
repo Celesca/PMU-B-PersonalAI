@@ -77,6 +77,27 @@ Semantic Code metrics ไม่ได้ดูแค่ตัวโครงส�
 เราใช้ SVM using SMO Optimization ศึกษาผ่านของ WEKA
 
 
+## 3. การนำ Machine Learning Model มาต่อกัน
+
+![image](https://github.com/user-attachments/assets/ea292c0d-7e0a-4316-b128-c9f2d6804421)
+
+เอา Methods ไปผ่าน Code2Vec ก็จะได้ Similarity เป็น Synthetic Code Metrics
+
+Java Tokenizer (ANTLR) เป็นก้อนๆ มาแตก Variables, Line of code, methods จะได้เป็น Semantic Code Metrics
+
+จากนั้นเอาทั้งสองมาผ่าน WEKA (Trained ML Model) เอาไฟล์ที่ได้มา ผ่านตัวเทรนด์ว่าจะเป็นคู่บ้าง
+
+![image](https://github.com/user-attachments/assets/dab3b74c-243e-44a6-850f-989d1d07f8a5)
+
+มีซอสโค้ดเหมือนกันมากแค่ไหนของนักศึกษา
+
+![image](https://github.com/user-attachments/assets/e4dc23e3-979c-4407-b58c-c6690afc46a7)
+
+![image](https://github.com/user-attachments/assets/9e002eff-db15-41cb-97dc-d1ebaeccc4eb)
+
+
+
+
 
 
 
