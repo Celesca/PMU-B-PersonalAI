@@ -193,8 +193,8 @@ Cosine Similarity (Code 0004-0003): 0.5198
 Cosine Similarity (Code 0004-0004): 1.0000
 ```
 
-
-
+ดูผลลัพธ์ได้ที่ Google Drive : https://colab.research.google.com/drive/1YtP01R6IiY3eaIFOoe9uB5g8tltmv8mu?usp=sharing
+หรือดูในไฟล์ Workshop_Code_Plagiarism.ipynb โฟลเดอร์เดียวกันครับ 
 
 
 
