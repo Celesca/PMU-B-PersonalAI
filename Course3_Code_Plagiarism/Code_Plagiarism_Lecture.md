@@ -153,7 +153,45 @@ Baseline เป็น อันนี้ใช่และไม่ใช่ โ
 
 ## 6. Coding Exercise
 
+``` python 
+import numpy as np
+from numpy.linalg import norm
 
+code_vectors = [cv1, cv2, cv3, cv4]
+
+# Function to calculate cosine similarity
+def cosine_similarity(a, b):
+    a = np.array(a, dtype=float)
+    b = np.array(b, dtype=float)
+    return np.dot(a, b) / (norm(a) * norm(b))
+
+# Calculate and print cosine similarities
+for i in range(len(code_vectors)):
+    for j in range(len(code_vectors)):
+        similarity = cosine_similarity(code_vectors[i], code_vectors[j])
+        print(f"Cosine Similarity (Code {i+1:04}-{j+1:04}): {similarity:.4f}")
+```
+
+ผลลัพธ์ที่ได้จะตรงกับของอาจารย์ที่เฉลยในคลิปดังนี้ครับ 
+
+```
+Cosine Similarity (Code 0001-0001): 1.0000
+Cosine Similarity (Code 0001-0002): 1.0000
+Cosine Similarity (Code 0001-0003): 0.5927
+Cosine Similarity (Code 0001-0004): 0.4987
+Cosine Similarity (Code 0002-0001): 1.0000
+Cosine Similarity (Code 0002-0002): 1.0000
+Cosine Similarity (Code 0002-0003): 0.5927
+Cosine Similarity (Code 0002-0004): 0.4987
+Cosine Similarity (Code 0003-0001): 0.5927
+Cosine Similarity (Code 0003-0002): 0.5927
+Cosine Similarity (Code 0003-0003): 1.0000
+Cosine Similarity (Code 0003-0004): 0.5198
+Cosine Similarity (Code 0004-0001): 0.4987
+Cosine Similarity (Code 0004-0002): 0.4987
+Cosine Similarity (Code 0004-0003): 0.5198
+Cosine Similarity (Code 0004-0004): 1.0000
+```
 
 
 
