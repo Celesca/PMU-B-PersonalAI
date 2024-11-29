@@ -141,6 +141,20 @@ Baseline เป็น อันนี้ใช่และไม่ใช่ โ
 
 บทสรุปมันสะดวกกับผู้ใช้ ต่อกับ GitHub Repo ได้ เทียบกับมนุษย์
 
+## 5. Future Work
+
+![image](https://github.com/user-attachments/assets/f2d5933e-e1bc-4e84-b8e5-44120c0d353a)
+
+![image](https://github.com/user-attachments/assets/d2a3ce57-34ae-4ce4-bee0-679c0f5dc227)
+
+จริงๆ เราสามารถใช้ตัว CodeBERT
+
+![image](https://github.com/user-attachments/assets/86461382-8faf-4e4a-bd71-bfc1afff011b)
+
+## 6. Coding Exercise
+
+
+
 
 
 
