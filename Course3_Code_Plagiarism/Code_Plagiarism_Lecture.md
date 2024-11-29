@@ -95,6 +95,40 @@ Java Tokenizer (ANTLR) เป็นก้อนๆ มาแตก Variables, Li
 
 ![image](https://github.com/user-attachments/assets/9e002eff-db15-41cb-97dc-d1ebaeccc4eb)
 
+## 4. การวัดประสิทธิภาพของ ML Model ที่สร้างขึ้น ในเชิงความแม่นยำ
+
+4.1 How accurate is Merry code clone ใน data BigCloneBench (BCB) มันมีความแม่นยำขนาดไหน
+
+![image](https://github.com/user-attachments/assets/e8b2ffdf-bf88-445e-a118-8d72ffe8707c)
+
+Precision -> ความแม่นยำ
+Recall -> ข้อมูลที่เรารู้ว่าถูก เราดึงมาได้เท่าไหร่ (เจอโค้ดที่เหมือนกันมากขึ้น)
+F1-Score
+
+![image](https://github.com/user-attachments/assets/48088afe-21eb-4f4e-aa68-66fc1871a46b)
+
+เราหยิบข้อมูล Test Data มาผ่าน Clone metric extractor 11 + 12 metrics จับคู่ แล้วผ่าน Trained ML Model ว่ามันใช่จริงไหม
+
+![image](https://github.com/user-attachments/assets/9a125d3b-4e18-402a-af5a-ce7c88b6390c)
+
+Baseline เป็น อันนี้ใช่และไม่ใช่ โดยการ Randomization
+มันบอกให้เห็นว่า เราต้องใช้สองอันมารวมกัน มันสูงที่สุด ดูโครงสร้างอาจจะไม่เพียงพอ ต้องใช้การดูฟังก์ชัน (Synthetic) ด้วย
+
+4.2 ถ้าเอา Merry code ไปรันโปรเจ็คจริงๆ on Real Software Projects
+
+![image](https://github.com/user-attachments/assets/e25132f6-0bb4-4b3f-ba7a-ab3a6275cf9f)
+
+เราเอาผู้เชี่ยวชาญมาช่วยตรวจข้อสอบตรงนี้
+
+![image](https://github.com/user-attachments/assets/bf40204d-d58c-45ca-ac31-0295b0c2d966)
+
+ตัวอย่าง
+
+![image](https://github.com/user-attachments/assets/e6202e9c-071f-4e5f-a81f-3d559a4c28de)
+
+
+4.3 มีความง่ายในการใช้งานมากแค่ไหน
+
 
 
 
