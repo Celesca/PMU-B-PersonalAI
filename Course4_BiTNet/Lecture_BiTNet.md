@@ -22,3 +22,32 @@ Early-stage CCA เราสามารถจัดการได้โดย 
 
 Tele-mediologists พอเราได้ฐานข้อมูลมาแล้ว เราก็ใช้รังสีแพทย์เชี่ยวชาญในการจำแนก โดยจำแนก 15 Class แรก โดยที่มีความผิดปกติก็จะแยกเป็น 14 Class
 เราก็จะมี Data 6569 ภาพ ซึ่งบางอันก็มีน้อย มีคนเป็นน้อยทำให้ Imbalanced Datasets
+
+มุมที่แพทย์ใช้ในการถ่ายแบกด้วยตามการแยกตามรังสีแพทย์
+
+![image](https://github.com/user-attachments/assets/6c288a22-9717-40a1-b365-cb795202d915)
+
+เราจำเป็นต้องสร้าง Meta Data ว่ารูปภาพที่ 1 เก็บอยู่ที่ไหน ตำแหน่งอะไร Class อะไร เคสที่เท่าไหร่
+เราจะแบ่งเป็น 10 Fold แล้วก็มีการกระจายตำแหน่งเท่ากันด้วย อีกทั้งยังบอก Test Validation แล้วก็ Train
+
+![image](https://github.com/user-attachments/assets/d6090e70-afbe-4dec-902e-3b83318b7e8c)
+
+6569 ภาพจาก 819 เคส เราสามารถลดได้เป็น 5 มุม (นักรังสีแพทย์)
+
+ต่อมาเราจะ Computer Vision Model เราก็จะลบ Remove BG Information เช่น พวกชื่อคนไข้ ข้อมูลคนไข้ ขั้นตอนแรกเลย เราจะต้องแยกสัญญาณอัลตร้าซาวด์ก็จะ Crop ออกมาก่อน
+
+![image](https://github.com/user-attachments/assets/a844feb3-44a4-4f96-b17e-864a25ae7d98)
+
+EfficientNet และ RandomForest
+
+* Data Augmentation - ในการเพิ่มจำนวนข้อมูล ในเชิงของ Computer Vision ควรจะเรียนรู้ในความหลากหลาย เช่น
+    1. Horizontal Shift - มีโอกาสที่จะเลื่อนในแนวนอนซ้ายขวาอย่างไรบ้าง
+    2. Vertical Shift - เลื่อนขึ้นเลื่อนลง
+    3. Rotation 30 องศา - ได้นิดหน่อย
+    4. Bright
+    5. Shear
+    6. Zoom
+    7. No Flip - เพราะว่าภาพมันไม่ Flip คว่ำลง มันเรียนรู้ไม่ได้ Flip แนวนอนก็ไม่ใช้ เพราะถ้าอวัยวะย้ายที่ มันจะไม่เวิร์ค
+ 
+
+
