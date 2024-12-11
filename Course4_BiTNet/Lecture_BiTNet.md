@@ -48,6 +48,15 @@ EfficientNet และ RandomForest
     5. Shear
     6. Zoom
     7. No Flip - เพราะว่าภาพมันไม่ Flip คว่ำลง มันเรียนรู้ไม่ได้ Flip แนวนอนก็ไม่ใช้ เพราะถ้าอวัยวะย้ายที่ มันจะไม่เวิร์ค
- 
+
+## 2. Model 
+![image](https://github.com/user-attachments/assets/b8c228ac-68eb-47bd-9a36-e52e41897e2b)
+
+EfficientNetB0 มันทำมาจาก Google ก็เรียกใช้ใน Tensorflow ได้เลย ซึ่งมีหลายขนาด มันมี Input Image ที่มันใหญ่ยิ่งใหญ่ยิ่งดี ใช้ขนาด 456 x 456 pixels เราเลยเรียกใช้ EfficientNet
+
+เราใช้ RandomForest เพื่อทำนายความผิดปกติ
+
+![image](https://github.com/user-attachments/assets/d094bf51-9926-4aaa-9ceb-58b613c1f424)
+
 
 
