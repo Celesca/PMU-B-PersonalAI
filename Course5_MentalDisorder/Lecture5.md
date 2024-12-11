@@ -35,4 +35,13 @@ User Data Collection
   * I was diagnosed with [condition name]" เราก็จะมีนักวิจัยมา Annotate ว่าเขาพูดเกี่ยวกับมันจริงๆไหม เพื่อมา label
 * Available Datasets
 
+## 2. Data Exploration & Preprocessing
+
+* Domain Knowledge
+![image](https://github.com/user-attachments/assets/a17bd688-fb83-4894-a337-eb54d263e2d9)
+
+พฤติกรรมซึมเศร้าเป็นยังไง
+
+![image](https://github.com/user-attachments/assets/d59ca7bc-da3a-486c-b652-5a6015235221)
+
 
