@@ -22,4 +22,17 @@
 การแบ่งประเภทของ Social Media ตามจุดมุ่งหมาย
 ![image](https://github.com/user-attachments/assets/0d72c5e2-ff57-4c5b-a15e-109ae4314795)
 
-มันอยู่ที่วัตถุประสงค์ของคนว่าจะโพสตจ์ยังไง แล้วก็ Algorithm ว่าจะแลกเปลี่ยนความคิดกัน แยกเป็น C
+มันอยู่ที่วัตถุประสงค์ของคนว่าจะโพสตจ์ยังไง แล้วก็ Algorithm ว่าจะแลกเปลี่ยนความคิดกัน
+
+![image](https://github.com/user-attachments/assets/22a64e53-9910-4ab3-8e84-3516494cb1b7)
+
+User Data Collection
+
+* สำหรับการเก็บข้อมูลเราก็จะเชิญเขามาร่วมกับงานวิจัยของเรา เช่น
+  * สอบถามโดยตรงผ่าน Questionnaires ว่าเขามีภาวะซึมเศร้าอยู่หรือไม่ CSD เพื่อนำมา Label
+  * EHR -> ได้รับการยืนยันจากแพทย์แล้วว่าเป็น
+* Aggregating data extracted จากโพสต์ออนไลน์
+  * I was diagnosed with [condition name]" เราก็จะมีนักวิจัยมา Annotate ว่าเขาพูดเกี่ยวกับมันจริงๆไหม เพื่อมา label
+* Available Datasets
+
+
