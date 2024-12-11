@@ -58,5 +58,30 @@ EfficientNetB0 มันทำมาจาก Google ก็เรียกใช
 
 ![image](https://github.com/user-attachments/assets/d094bf51-9926-4aaa-9ceb-58b613c1f424)
 
+* Auto Pre-screening -> เอาให้คนดูภาพน้อยที่สุด เพื่อจะได้รวดเร็ว แล้วก็ AI แนะนำว่ายังไงบ้าง เวลาเราสร้าง Computer Vision เราต้อง Fine-tune โมเดลให้เหมาะกับวิธีนั้นๆ
+
+![image](https://github.com/user-attachments/assets/14d40fd3-ce21-4bbb-9876-d5468ce09f85)
+
+เรามั่นใจว่ามันเป็น Abnormal อันไหนไม่มั่นใจว่า 100% มันจะอยู่ลำดับสูงๆ เพื่อให้อาจารย์ผู้เชี่ยวชาญดูภาพนี้ก่อน ถ้ามันไม่จำเป็นก็ให้ Priority ต่ำๆก็ไม่ต้องดูตอนว่างๆ
+สรุปคือเราส่ง Abnormal หา Radiologist (100% confidence normal or Otherwise)
+
+![image](https://github.com/user-attachments/assets/d1e49e88-0d74-421f-b8be-c5e2f36f9d19)
+
+มองจากเวิร์คโหลด ลดงานได้ 35%
+
+หน้าตาเว็บที่บอก Explainable AI + Predict 15 Classes 
+
+![image](https://github.com/user-attachments/assets/128b6c55-cb9b-4388-9997-fd8db75073ef)
+
+GradCam - Debug Layer ว่า Neuron Node นั้นทำงานเป็นพิเศษ มันจะอยู่ช่วงสีสว่าง มีความ Active มาก เขาทำให้มันสามารถ Explainable AI เข้าไป Assumption
+![image](https://github.com/user-attachments/assets/bdf8d569-51b1-49cb-9ba1-4d5c33203c71)
+
+การใช้งาน โดยทำนาย 150 ภาพ แล้วก็ Washout ว่าไม่มีเครื่องมือช่วยจะเป็นยังไง ฉะนั้นเขาทดสอบเครื่องมือว่าคุณหมอเขาจะทำยังไง โดยมีความเชี่ยวชาญต่างกัน
+
+![image](https://github.com/user-attachments/assets/66e629a7-8303-4827-b221-c763189fb396)
+
+แพทย์ทั่วไป ไม่ได้เรียนเฉพาะทาง / เรียนเฉพาะทางรังสีแพทย์ / จบรังสีแพทย์ อาจารย์หมอ Non-hepatobiliary แต่ไม่ได้ชำนาญการวิเคราะห์ช่องท้องส่วนบน / Hepatobiliary radiologists คุณหมอที่ชำนาญ
+
+
 
 
