@@ -82,6 +82,22 @@ GradCam - Debug Layer ว่า Neuron Node นั้นทำงานเป็
 
 แพทย์ทั่วไป ไม่ได้เรียนเฉพาะทาง / เรียนเฉพาะทางรังสีแพทย์ / จบรังสีแพทย์ อาจารย์หมอ Non-hepatobiliary แต่ไม่ได้ชำนาญการวิเคราะห์ช่องท้องส่วนบน / Hepatobiliary radiologists คุณหมอที่ชำนาญ
 
+EfficientNet -> มันแม่นยำมาก / เมื่อเทียบกับข้อมูลเท็จสิ่งที่เกิดขึ้นคือ
+
+![image](https://github.com/user-attachments/assets/be447abb-3b51-4c2a-ab87-0190f316271f)
+
+เราใช้ Random Forests เอา Decision Tree มา Vote กัน 
+
+![image](https://github.com/user-attachments/assets/5108de6a-9006-4f5a-ba24-e01e84a78448)
+
+![image](https://github.com/user-attachments/assets/420fe10b-22b5-4169-a8b4-17fc9bdf5001)
+
+* การเทรนด์โมเดล EfficientNet แล้วก็ Random Forest มาเทรนด์ต่อ
 
 
+1. Freeze 3 Layer สุดท้ายก่อนให้มันเรียนรู้ 15 classes SoftMax
+
+2. แล้วก็ Unfreeze ให้มากขึ้นโดยทำการ Fine-tuning
+
+![image](https://github.com/user-attachments/assets/f951d081-f062-466b-b08f-c5ab4a2dc709)
 
