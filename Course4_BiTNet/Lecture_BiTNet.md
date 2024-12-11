@@ -101,3 +101,12 @@ EfficientNet -> มันแม่นยำมาก / เมื่อเที�
 
 ![image](https://github.com/user-attachments/assets/f951d081-f062-466b-b08f-c5ab4a2dc709)
 
+## 3. Evaluation
+
+![image](https://github.com/user-attachments/assets/83c9a44b-b82f-4281-b254-4ff88d3c2cde)
+
+![image](https://github.com/user-attachments/assets/421433f3-c42c-4101-874e-d4e9514e429c)
+
+## 4. Visualization
+
+
