@@ -45,4 +45,8 @@ Sorry for my bad English. I just want to share knowledges to people around the w
   The course is about the Code clone detection for professor in university to detect the student who copied code from their friends. We use Synthetic Code Metric from `Code2Vec` to have the similarity vector and then use the cosine similarity to calculate the diff of code. While, we use Semantic Code Metric from `ANTLR` to tokenize and get the context such as from variables and line of code.
   Finally, we combine the Synthetic and Semantic Code Metric and use Machine Learning Model such as Decision Tree, Random Forest, SVM, SVM SMO to classify the type of code clone.
 
-4. BitNet
+4. BitNet : AI for diagnosing ultrasound image
+
+  The course is about the CNN model to classify the ultrasound image to detect the CCA. We use the pretrained-model called `EfficientNet` and fine-tuning the model with our own datasets.
+This project is made efficiency in term of detection for the doctors.
+  You can find the workshop references here : https://kku.world/pmubbitnet
