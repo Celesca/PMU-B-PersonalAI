@@ -10,13 +10,15 @@ My name is Sawit Koseeyaumporn ⛹️‍♂️ . You can call me "Folk"!
 
 Welcome to my learning journey in E-SAN Coding Thailand Season 2 Level 2. (ETPCA SS2)
 
-The content in this repository is about the Personal AI track. By including 7 courses in PowerClass!
+The content in this repository is about the Personal AI track. By including 6 courses in PowerClass!
 
 Sorry for my bad English. I just want to share knowledges to people around the world from my learning pathway! 💌
 
 * The "Note" is the lecture that I take note of each courses.
 * The "Document" is the link to the learning presentation and materials of each courses.
 * The "Certificate" is the link to the PowerClass Certification of mine.
+
+You can find the resources from this link here : 🥇 [Resources](https://kku.world/uideersonal)
 
 
 ## Lecture Table
