@@ -52,3 +52,11 @@ You can find the resources from this link here : 🥇 [Resources](https://kku.wo
   The course is about the CNN model to classify the ultrasound image to detect the CCA. We use the pretrained-model called `EfficientNet` and fine-tuning the model with our own datasets.
 This project is made efficiency in term of detection for the doctors.
   You can find the workshop references here : https://kku.world/pmubbitnet
+
+
+5. Mental Disorder Detection with Text Classification
+   The course is about the NLP (Natural Linguistic Processing) with the techniques called "Text Classification" which is the supervised learning. We use the texts from the social medias to classify whether that people have the
+diagnose about the depression to the early detection and can let the doctor handles in real soon.
+
+6. AI for arresting criminals
+   The course is about the Object detection using YOLO.
