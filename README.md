@@ -47,16 +47,16 @@ You can find the resources from this link here : 🥇 [Resources](https://kku.wo
   The course is about the Code clone detection for professor in university to detect the student who copied code from their friends. We use Synthetic Code Metric from `Code2Vec` to have the similarity vector and then use the cosine similarity to calculate the diff of code. While, we use Semantic Code Metric from `ANTLR` to tokenize and get the context such as from variables and line of code.
   Finally, we combine the Synthetic and Semantic Code Metric and use Machine Learning Model such as Decision Tree, Random Forest, SVM, SVM SMO to classify the type of code clone.
 
-4. BitNet : AI for diagnosing ultrasound image
+4. BitNet : AI for diagnosing ultrasound image 🧑‍⚕️
 
   The course is about the CNN model to classify the ultrasound image to detect the CCA. We use the pretrained-model called `EfficientNet` and fine-tuning the model with our own datasets.
 This project is made efficiency in term of detection for the doctors.
   You can find the workshop references here : https://kku.world/pmubbitnet
 
 
-5. Mental Disorder Detection with Text Classification
+5. Mental Disorder Detection with Text Classification ⚽
    The course is about the NLP (Natural Linguistic Processing) with the techniques called "Text Classification" which is the supervised learning. We use the texts from the social medias to classify whether that people have the
 diagnose about the depression to the early detection and can let the doctor handles in real soon.
 
-6. AI for arresting criminals
-   The course is about the Object detection using YOLO.
+6. AI for arresting criminals 👮‍♂️
+   The course is about the Object detection using YOLO and detecting the arresting criminals with Roboflow for preprocessing and augmentating the images.
