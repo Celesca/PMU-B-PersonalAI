@@ -57,6 +57,26 @@ Confidence -> ระบุว่า Bounding Boxes ของเรามัน A
 
 ฉะนั้นถ้าไม่มีการ Detect ใน Grid Cell แสดงว่า Confidence ก็จะเป็น 0
 
+Detect ได้รวดเร็ว โดยเฉพาะในเรื่องของ Performance ภาพรวม
+
+### Training YOLO
+
+YOLO เป็น Regression Algorithm -> สมัยก่อนจะใช้ Traditional เช่น อาจจะทำ Classification ทำ Post processing แล้วก็ลบ Duplicate processing
+
+แต่มันทำงานใน Single Regression algorithm มันจะให้ผลจากภาพโดยตรง เราก็เลยตั้งชื่อว่า YOLO มันจะมีตัวแปรที่เกี่ยวข้อง
+
+
+ในการเทรนด์โยโล่ เราต้องเข้าใจ X, Y คืออะไร
+
+![image](https://github.com/user-attachments/assets/12e4f92a-dcbd-4f80-b416-258aa17eacf6)
+
+Output ที่ได้จะเป็น Tensor มีขนาดโดยจะ Split เป็นขนาด S x S Grid cells สำหรับการ Predict Bounding Boxes ที่จุด Center วางอยู่ในนั้น
+
+B -> จำนวน Bounding Boxes ที่ Grid Cell Predict ออกมาได้ เพราะฉะนั้นในแต่ละ Bounding Boxes จะมี 5 ค่า
+
+
+
+
 
 
 
