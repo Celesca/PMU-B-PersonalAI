@@ -66,6 +66,21 @@ LIWC-22 ในการใช้คำมากน้อยขนาดไหน
 
 ![image](https://github.com/user-attachments/assets/ddff8db8-f9dc-4637-8ec6-97bbe5066d6d)
 
+## 3. Predictive Modeling 
 
+![image](https://github.com/user-attachments/assets/cb802f2e-7d9d-485e-ae58-3ffacc34278c)
 
+![image](https://github.com/user-attachments/assets/68ec17a8-e21b-4d92-8e74-0eaa55f9215c)
+
+เอาคำที่ได้มา negative / positive features ออกมา
+
+![image](https://github.com/user-attachments/assets/28ae1162-05e4-4043-9130-67612c9b2d41)
+
+## 4. Evaluation Model
+
+![image](https://github.com/user-attachments/assets/e3176a0d-34f4-4f1c-90e6-1a13a92359ef)
+
+ROC curves - ควรจะทำได้เหนือเส้นประ 
+
+![image](https://github.com/user-attachments/assets/144a31c6-fb4a-4199-a432-be9ea9d46454)
 
