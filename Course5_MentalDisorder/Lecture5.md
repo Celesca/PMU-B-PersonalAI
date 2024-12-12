@@ -44,4 +44,30 @@ User Data Collection
 
 ![image](https://github.com/user-attachments/assets/d59ca7bc-da3a-486c-b652-5a6015235221)
 
+![image](https://github.com/user-attachments/assets/edcd5b30-2c30-4107-9e24-a7c8d1d2bf3f)
+
+CountVectorizer -> ดู Bag of words ที่มี Frequency ของคำนั้นๆอยู่ โดยใช้ fit_transform (ดูว่ามีการใช้อยู่ในคอลัมน์ไหนบ้าง)
+
+![image](https://github.com/user-attachments/assets/b6c13a78-b1f6-412a-9276-14a39fab8863)
+
+LIWC-22 ในการใช้คำมากน้อยขนาดไหน เช่น เอาไว้ตรวจจับคำเชิงบวกหรือลบ
+
+![image](https://github.com/user-attachments/assets/a99309e9-08b9-4de2-bd16-ee342538d543)
+
+สีแดงคือคนที่มีภาวะซึมเศร้า กับคนที่มีความปกติ
+เช่น ดูว่ามีการโพสต์บ่อยขนาดไหน ภาวะซึมเศร้าไม่ค่อยเคลื่อนไหว เขยื้อนตัวทำให้เขาโพสต์น้อย ไม่ค่อย Replies
+
+การใช้คำเชิง Negative เชิงลบ แล้วก็ Activation ต่ำกว่าปกติ
+
+![image](https://github.com/user-attachments/assets/cad6884b-66e8-47ae-bce1-00453aa03e0d)
+
+อาจจะพูดถึงคนอื่นน้อย แล้วก็จะใช้คำว่า I (ตัวเองเยอะกว่า)
+เกี่ยวกับคำสาบาน และ เกี่ยวกับภาวะเหนื่อย ซึมเศร้า Depression term คนซึมเศร้าจะมีมากกว่า
+
+ดังนั้นเราจะสกัดข้อมูลออกมาได้อย่างถูกต้อง ตามพฤติกรรมของคนปกติ
+
+![image](https://github.com/user-attachments/assets/ddff8db8-f9dc-4637-8ec6-97bbe5066d6d)
+
+
+
 
