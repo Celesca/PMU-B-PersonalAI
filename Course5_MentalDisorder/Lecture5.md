@@ -84,3 +84,10 @@ ROC curves - ควรจะทำได้เหนือเส้นประ
 
 ![image](https://github.com/user-attachments/assets/144a31c6-fb4a-4199-a432-be9ea9d46454)
 
+## 5. Future Work
+
+![image](https://github.com/user-attachments/assets/7aa6e377-9eeb-4c54-a6da-9f2dec84e7dd)
+
+เช่นผ่านวิดีโอข้อความ ว่ามีโอกาสเป็นซึมเศร้าหรือไม่ซึมเศร้า คุณควรจะหาคนที่ให้คำปรึกษาดีไหม ทำให้คุณหมอสามารถให้คำปรึกษาได้ทัน
+ฉะนั้นถ้าเขาไม่โพสต์ เราก็ไม่สามารถ Detect ได้ หากเราไม่สามารถ Detect จาก Media
+
