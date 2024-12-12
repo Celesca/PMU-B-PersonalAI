@@ -141,5 +141,11 @@ First Layer -> เอา 3x3 เข้าไปแทนใน Bottleneck ต่
 
 Datasets Coco และ Roboflow ถ้าเทียบกับเวอร์ชั่นอื่น แล้วก็เรื่องของ Community มีคนใช้เยอะ ฉะนั้นสะดวกใช้งาน
 
+## 5. Future Works
+
+![image](https://github.com/user-attachments/assets/8580c565-1ca3-41b1-97fe-6d7b5cfa9db9)
+
+Monitoring system. เราอาจเพิ่ม Anomaly Detection หรือทำ Generative AI สำหรับ Generate ภาพที่ยังไม่ผ่านการ Learn จาก Models กับความปลอดภัยความมั่นคง หรือทำ Predictive Model เหตุการณ์ที่จะเกิดขึ้นในภายภาคหน้า
+
 
 
